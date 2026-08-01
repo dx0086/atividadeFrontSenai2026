@@ -1,0 +1,101 @@
+/*Cabeçalho*/
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+/*Principal*/
+
+main {
+    min-height: 500px;
+}
+
+/*banner*/
+
+#section-banners img {
+    min-height: 500px;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/*Produtos em Destaque*/
+
+#section-vendidos {
+    text-align: center;
+}
+
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos.card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-vendidos .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Rodapé*/
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*Botão Voltar ao Topo*/
+
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+
+
+
+
+/*Pagina de Login*/
+
+#section-login {
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+/*Formulário Cadastro*/
+
+#section-cadastro {
+    margin-top: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
